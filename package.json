@@ -1,0 +1,30 @@
+{
+  "name": "complete-ordering-system",
+  "version": "1.0.0",
+  "description": "complete-ordering-system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cohortnationlabs/Complete-Ordering-System-Batch1.git"
+  },
+  "type": "module",
+  "author": "cohortnationlabs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cohortnationlabs/Complete-Ordering-System-Batch1/issues"
+  },
+  "homepage": "https://github.com/cohortnationlabs/Complete-Ordering-System-Batch1#readme",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "moment-timezone": "^0.6.0",
+    "winston": "^3.18.3",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
